@@ -1,0 +1,12 @@
+<div>
+    <h2>Teams</h2>
+
+  
+  <ul class="teams">
+    <li *ngFor="let team of teams">
+        <a routerLink="/detail/{{team.id}}">  
+          {{team.country}}
+        </a>
+    </li>
+  </ul>
+</div>

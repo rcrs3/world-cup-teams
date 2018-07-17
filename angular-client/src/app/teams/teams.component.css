@@ -1,0 +1,33 @@
+.teams {
+    margin: 0 2em 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+}
+.teams li {
+    position: relative;
+    cursor: pointer;
+    background-color: rgb(214, 212, 212);
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.8em;
+    border-radius: 5px;
+}
+
+.teams li:hover {
+    color: #607D8B;
+    background-color: rgb(214, 212, 212);
+    left: .3em;
+}
+
+.teams a {
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+    position: relative;
+    display: block;
+    width: 250px;
+}
+
+.teams a:hover {
+    color:#607D8B;
+}
